@@ -32,6 +32,9 @@ router.use('/playlist', playlist.routes())
 router.use('/swiper', swiper.routes())
 router.use('/blog', blog.routes())
 
+app.use(router.routes())
+app.use(router.allowedMethods())
+
 app.listen(3000, () => {
   console.log('服务端启动成功！(端口：3000)')
 })

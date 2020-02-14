@@ -56,3 +56,5 @@ router.get('/del', async(ctx, next) => {
     data: res
   }
 })
+
+module.exports = router
