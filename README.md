@@ -24,6 +24,16 @@
 + 触发云函数封装：[callCloudFn.js](./server/utils/callCloudFn.js)\
 + 上传下载文件封装：[callCloudStorage.js](./server/utils/callCloudStorage.js)
 
+## server/config.js 配置
+
+``` javascript
+module.exports = {
+  env: 'xxx', // 云环境Id
+  appid: 'xxxxxx',
+  secret: 'xxxxxx'
+}
+```
+
 ## 项目展示
 
 ![app01](./readme/images/app01.png)
