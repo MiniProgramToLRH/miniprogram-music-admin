@@ -4,6 +4,13 @@
 
 项目主要包括轮播图管理、歌单管理、博客管理。
 
+## 如何运行
+
++ 克隆代码：`https://github.com/MiniProgramToLRH/miniprogram-ebook.git`
++ 安装依赖：`npm install`
++ 客户端运行：`npm run dev`
++ 服务端运行：`node server\app.js`
+
 ## 基础知识
 
 + `access_token`的获取以及缓存：[getAccessToken.js](./server/utils/getAccessToken.js)
